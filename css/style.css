@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244 244 244);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:15px
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.link-menu {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(43 23 3);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.link-menu:hover {
+    transform: scale(1.2);
+    color: rgb(226 53 42);
+}
+
+.active {
+    color: rgb(226 53 42 / 0.5);
+}
+
+/* MAIN ARTICLE*/
+
+.content {
+    width: 95%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align:left;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+.info-author {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.writer {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(226 53 42);
+}
+
+.publication-date {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.quest.intro {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.caption {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px ;
+    gap: 5px;
+}
+
+.caption p{
+    margin:0;
+}
+
+.quest-article{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+blockquote {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.quote{
+    border-top: 1px solid rgb(43 23 3);
+    border-bottom: 1px solid rgb(43 23 3);
+}
+
+blockquote footer{
+    text-align: right;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+cite {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.photo-author {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0 0 0;
+    border-radius: 50%;
+}
+
+.author-info {
+    font-size: 12px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.caption-author{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.author-description {
+    margin:0px;
+}
+
+.author-source {
+    display: flex;
+    margin: 0px;
+}
+
+.author-source.content_author{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+/*MAIN GLOSSARI*/
+
+.lista_principal.glossari {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor_section {
+    border-bottom: 1px solid rgb(43 23 3);
+}
+
+.title_section {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.contenedor_description {
+    margin: 30px 0px 30px 40px;
+    
+}
+
+.title_item {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+dd {
+    display: list-item;
+    list-style-type: square;
+    margin-left: 60px;
+    padding: 2px;
+}
+
+
+/* MAIN RECURSOS */
+
+.contenedor_audio {
+    margin: 30px 0;
+    max-width: 100%;
+    border: 1px solid rgb(43 23 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.title_audio {
+    padding-top: 20px;
+}
+
+.lista_principal.recursos{
+    margin-left: 100px;
+    list-style-type: square;
+}
+
+.title_list{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.sublista {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* FOOTER */
+
+.footer-container {
+    background-color: rgb(43 23 3);
+    width:auto;
+    padding: 20px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container p{
+    color: rgb(255 255 255);
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+
+    padding: 5px 0;
+    font-size: 10px;
+}
+
+/* ENLACES*/
+
+.link_internal {
+    text-decoration: none;
+    color: rgb(226 53 42);
+    transition: color 0.1s ease;
+}
+
+.link_internal:hover{
+    color: rgb(226 53 42 / 0.5);
+}
+
+.link-external {
+    text-decoration: none;
+    margin: 0px;
+    color: rgb(226 53 42);
+    position: relative;
+    display: inline-flex; 
+    align-items: baseline;
+    gap: 2px;
+    transition: color 0.1s ease;
+}
+
+.link-external:hover {
+    color: rgb(226 53 42 / 0.5);
+}
+
+.icon-external,
+.icon-external--hover {
+    vertical-align: middle;  
+    transition: opacity 0.1s ease;
+    position: relative;
+    top: 1px;    
+}
+
+.icon-external{
+    display:inline;
+}
+
+.icon-external--hover {
+    display:none;
+}
+
+.link-external:hover .icon-external {
+    display: none;
+}
+
+.link-external:hover .icon-external--hover {
+    display: inline;
+}
+
+/* FORMATOS TEXTO */
+
+.bold {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold-italic {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ABREVIATURAS */
+
+.abreviatura{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255 255 255);
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    cursor: help;
+}
+
+.abreviatura.text {
+    text-decoration-color: rgb(43 23 3);
+}
+
+/* Figure */
+
+figure {
+    margin: 0px;
+}
