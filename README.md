@@ -1,4 +1,4 @@
-<img src="img/banner_HTML_&_CSS.png" alt="banner" width="600">
+<img src="img/banner_HTML_&_CSS.png" alt="banner">
 
 **Author:** Clàudia Trigo Joaquin  
 **University:** Open University of Catalonia (UOC)  
