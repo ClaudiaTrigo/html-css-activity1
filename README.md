@@ -1,4 +1,4 @@
-<img src="C:\Users\PC\Desktop\UOC\Master_Disseny_Web\3_HTML_CSS_1\PAC1\HTML & CSS.png" alt="banner" wiidth="600">
+<img src="img/banner_HTML_&_CSS.png" alt="banner" width="600">
 
 **Author:** Clàudia Trigo Joaquin  
 **University:** Open University of Catalonia (UOC)  
