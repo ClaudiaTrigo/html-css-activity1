@@ -1,4 +1,4 @@
-# 🎵 A World Without Nostalgia — Web Project (HTML & CSS)
+<img src="C:\Users\PC\Desktop\UOC\Master_Disseny_Web\3_HTML_CSS_1\PAC1\HTML & CSS.png" alt="banner" wiidth="600">
 
 **Author:** Clàudia Trigo Joaquin  
 **University:** Open University of Catalonia (UOC)  
@@ -47,9 +47,8 @@ Custom stylesheet applying responsive layouts, semantic structure, and a clean, 
 
 ---
 
-## 📸 Preview
-*(You can add screenshots or a GIF preview here later)*  
+## 📸 Preview  
 Example:
 
 ```html
-<img src="img/preview.png" alt="Website preview" width="600">
+<img src="">
